@@ -1,4 +1,4 @@
-window.cars =[
+[
 { make: 'Opel', model: 'Insignia' , year: '2009', 
 rent:{ 
     status: 'false',    
