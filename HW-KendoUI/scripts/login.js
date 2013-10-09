@@ -2,6 +2,7 @@
     var LoginViewModel,
         app = global.app = global.app || {};
 
+    //just like observable class
     LoginViewModel = kendo.data.ObservableObject.extend({
         isLoggedIn: false,
         username: "",
