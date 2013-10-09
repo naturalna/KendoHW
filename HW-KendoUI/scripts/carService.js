@@ -50,6 +50,7 @@
     app.cars = {
         init:init          
     };*/
+  
     var cars = [
             { make: 'Opel', model: 'Insignia' , year: '2009', 
             rent:{ 
@@ -90,15 +91,12 @@
         columns: [
                 	{ field: 'make', width: 50, title: 'Make' },
                 	{ field: 'model', width: 50, title: 'Model' },
-                    { field: 'rent.status', width: 50, title: 'Free' },
-                    
-],
-
-
+                   ],
+        
 });
-
 $("#listView-sourse").kendoMobileListView({
-    dataSource: ds
+    dataSource: ds,
+    template: "${make}",
 });
     
 })(window);

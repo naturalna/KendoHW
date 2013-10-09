@@ -11,73 +11,13 @@
         <script src="kendo/js/kendo.mobile.min.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
 
-        <script src="scripts/carService.js"></script>
+    
         <script src="scripts/app.js"></script>
-     
+             <script src="scripts/carService.js"></script>
 
     </head>
     <body>
-        <!--Home-->
-        <div id="tabstrip-home" 
-             data-role="view"  
-             data-title="Home"
-            
-            >
-        <!--cars list-view
-             <ul data-role="listview" data-style="inset" data-init=""></ul>
-            -->
-             <ul id="listView-sourse"></ul></div>
-            
-        <!--About-->
-        <div id="tabstrip-about" 
-             data-role="view"  
-             data-title="About" 
-             >
-
-            <div class="view-content">
-               
-                <h1 class="welcome" >
-                  About page
-                </h1>
-            </div>
-
-        </div>
-        
-         <!--Contact-->
-        <div id="tabstrip-contacts" 
-             data-role="view"  
-             data-title="Contact" 
-             >
-            <div class="view-content">               
-                <h1 class="welcome" >
-                  Contact page
-                </h1>
-            </div>
-        </div>
-        
-        <!--Layout
-        container for views
-        -->
-        <div data-role="layout" data-id="tabstrip-layout" >
-
-            <!--Header
-            <span data-role="view-title"></span>
-            shows the data-title of the current view
-            -->
-            <div data-role="header">
-                <div data-role="navbar">
-                    <span data-role="view-title"></span>
-                </div>
-            </div>
-
-            <!--Footer-->
-            <div data-role="footer">
-                <div data-role="tabstrip">
-                    <a href="#tabstrip-home" data-icon="home">Home</a>
-                    <a href="#tabstrip-about" data-icon="contacts">About</a>
-                    <a href="#tabstrip-contacts" data-icon="search">Contacts</a>
-                </div>
-            </div>
-        </div>
+        <ul id="listView-sourse"></ul>
+       
     </body>
 </html>
